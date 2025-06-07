@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  background-color: #9c0606;
+  overflow: hidden;
+}
+
+.emoji-container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji {
+  height: 90vh;
+  width: auto;
+  z-index: 0;
+}
+
+.eye {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  transition: transform 0.05s linear;
+  z-index: 1;
+}
+
+.left {
+  top: 15%;
+  left: 53.5%;
+}
+
+.right {
+  top: 19%;
+  left: 57%;
+}
